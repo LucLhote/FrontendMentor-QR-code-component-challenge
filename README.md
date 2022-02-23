@@ -52,7 +52,8 @@ One of the things I'd like to do is switch between Flexbox and Grid. I don't use
 
 ## Author
 
-- Email - [Luc Lhote](luc.lhote@outlook.com)
+- Email - [luc.lhote@outlook.com](luc.lhote@outlook.com)
 - Frontend Mentor - [@LucLhote](https://www.frontendmentor.io/profile/LucLhote)
 - LinkedIn - [Luc Lhote](https://www.linkedin.com/in/luclhote/)
-- freeCodeCamp - [@LucLh](https://www.freecodecamp.org/LucLh)(https://forum.freecodecamp.org/u/luclh/summary)
+- freeCodeCamp - [@LucLh](https://www.freecodecamp.org/LucLh)
+- freeCodeCamp Forum - [@LucLh](https://forum.freecodecamp.org/u/luclh/summary)
