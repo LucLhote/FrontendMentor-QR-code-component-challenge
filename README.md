@@ -18,12 +18,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./design/screenshot-final-result.png)
+![Desktop Solution](./design/desktop-final-result.png)
+![Mobile Solution](./design/mobile-final-result.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LucLhote/LucLhote.github.io)
-- Live Site URL: [Add live site URL here](https://LucLhote.github.io)
+- Solution URL: [Add solution URL here](https://github.com/LucLhote/FrontendMentor-QR-code-component-challenge)
+- Live Site URL: [Add live site URL here](https://luclhote.github.io/FrontendMentor-QR-code-component-challenge/)
 
 ## My process
 
