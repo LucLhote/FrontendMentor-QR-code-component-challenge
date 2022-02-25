@@ -2,7 +2,9 @@
     --white-color: hsl(0, 0%, 100%);
     --light-grey-color: hsl(212, 45%, 89%);
     --grayish-blue-color: hsl(220, 15%, 55%);
+    --grayish-blue-color-alpha: rgba(123, 135, 157, 0.2);
     --dark-blue: hsl(218, 44%, 22%);
+    --app-height: 100%;
 }
 
 * {
@@ -10,9 +12,10 @@
     padding: 0;
 }
 
-body {
-    width: 1440px;
-    height: 100vh;
+html, body {
+    min-width: 100vw;
+    min-height: 100vh;
+    min-height: var(--app-height);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,13 +26,14 @@ body {
 
 .qr-section {
     width: 285px;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px 15px 40px 15px;
     background-color: var(--white-color);
+    box-shadow:  0px 25px 20px var(--grayish-blue-color-alpha);
+    margin-bottom: 30px;
     border-radius: 20px;
     text-align: center;
 }
@@ -43,30 +47,26 @@ body {
     width: 275px;
     margin: 25px 0 15px 0;
     font-size: 1.4rem;
-    opacity: 0.72;
+    opacity: 0.8;
 }
 
 .qr-section p {
     width: 265px;
     font-size: 15px;
+    font-size: 0.938em;
     color: var(--grayish-blue-color);
-    opacity: 0.73;
+    opacity: 0.8;
 }
 
 .attribution { 
-    position: fixed;
-    bottom:  70px;
-    font-size: 11px; 
+    display: flex;
+    gap: 4px;
+    font-size: 13px;
+    font-size: 0.813rem; 
     text-align: center; 
 }
 
-.attribution a { 
+a { 
     color: hsl(228, 45%, 44%); 
-}
-
-@media (max-width: 1440px) {
-    body {
-        width: 100%;
-        min-width: 375px;
-    }
+    text-decoration: none;
 }
